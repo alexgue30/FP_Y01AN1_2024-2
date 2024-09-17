@@ -28,7 +28,7 @@ if opcion == "Agregar Usuario":
     if st.button("Agregar"):
         if nombre:
             agregar_usuario(nombre)
-        else
+        else:
             st.error("El nombre no puede estar vacio")
 elif opcion == "Mostrar Usuarios":
     mostar_usuarios()
